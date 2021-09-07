@@ -7,8 +7,10 @@ if answer == 'yes' or answer == 'Yes':
     print("Great. lets get started! How many Affirmations would you like to receive today?")
     f = open("affirmations.txt","w")
     f.close()
-else:
+elif answer == 'no' or answer == 'No':
     print("No Problem. See you soon")
+else:
+    print("I didnt catch that. I will assume you want some affirmations! How many Affirmations would you like today?")
 
 number = int(input("Enter a Number please:"))
 
