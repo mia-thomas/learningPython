@@ -7,8 +7,8 @@ for url in fileContent:
     print("https://" + url.strip())
     response = requests.get("https://" + url.strip())
     statusCode = response.status_code
-    print("The Status code for " + url + "is " + str(statusCode))
+    print("The Status code for " + url + " is " + str(statusCode))
     if statusCode == 200:
-        print("The url for" + url + "is Healthy!")
+        print("The url for " + url + " is Healthy!")
     else:
-        print("The url for" + url + "is Unhealthy!")
+        print("The url for " + url + " is Unhealthy!")
