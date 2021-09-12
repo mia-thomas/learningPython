@@ -11,7 +11,6 @@ while True:
     if userInput == 1:
         number = str(random.randint(1,6))
         print("Congratulations! You have roled the number " + number + "!\n")
-        print("would you like to roll again?")
-        print("Would you like to roll again?")
+        print("Lets roll again?")
     else:
         break
