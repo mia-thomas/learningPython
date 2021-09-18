@@ -1,7 +1,4 @@
-
 print("Welcome to my Dice Stimulator! Lets begin")
-
-
 import random
 while True:
     print("You have two options..")
